@@ -13,13 +13,27 @@
     --blue-dark-1: #022859;
     --blue-dark-2: #011C40;
 
-    --yellow: #F9FFA4;
-    --green: #B4FF9F;
-    --aqua: #B7EAC5;
-    --lightBlue: #A2EEE5;
-    --darkBlue: #8EA2EA;
-    --red: #FFA1A1;
-    --orange: #FFD59E;
+    --yellow-dark: #F2DCAE;/**/
+    --yellow-light: #FFFBDE; /**/
+    --yellow: #F2FF8D;  /**/
+    --green-bright: #C2CB6C; /**/
+    --green: #B4FF9F;/**/
+    --aqua: #B7EAC5;/**/
+    --aqua-green: #BCD4BF;/**/
+    --blue-bright: #04BAD8; /**/
+    --blue-grey:#8697A6;/**/
+    --lightBlue: #A2EEE5;/**/
+    --darkBlue: #8EA2EA;/**/
+    --red: #FFA1A1;/**/
+    --orange: #FFD59E; /**/
+    --orange-bright: #FFB246;/**/
+    --pale-rose: #D99791;/**/
+    --brown-sand: #B77B4D;/**/
+    --brown-red: #8C4624; /* take */
+    --sand: #E8B982;/**/
+    --mora-milk: #F6DCF5;/**/
+
+
     --gold: gold;
 
 
@@ -244,25 +258,25 @@ footer {
     width: 8px;
     height: 8px;
 }
-#id28 { --idColor: var(--yellow); }
-#id12 { --idColor: var(--red); }
-#id16 { --idColor: var(--green); }
-#id35 { --idColor: var(--lightBlue); }
-#id80 { --idColor: var(--darkBlue); }
-#id99 { --idColor: var(--blue-dark-1); }
-#id18 { --idColor: var(--blue-medium-1); }
-#id10751 { --idColor: var(--yellow); }
-#id14 { --idColor: var(--red); }
-#id36 { --idColor: var(--green); }
-#id27 { --idColor: var(--lightBlue); }
-#id10402 { --idColor: var(--darkBlue); }
-#id9648 { --idColor: var(--blue-dark-1); }
-#id10749 { --idColor: var(--blue-medium-1); }
-#id878 { --idColor: var(--yellow); }
-#id10770 { --idColor: var(--red); }
-#id53 { --idColor: var(--green); }
-#id10752 { --idColor: var(--lightBlue); }
-#id37 { --idColor: var(--darkBlue); }
+#id28 { --idColor: var(--green-bright); }
+#id12 { --idColor: var(--blue-bright); }
+#id16 { --idColor: var(--orange); }
+#id35 { --idColor: var(--yellow); }
+#id80 { --idColor: var(--brown-red); }
+#id99 { --idColor: var(--yellow-light); }
+#id18 { --idColor: var(--blue-grey); }
+#id10751 { --idColor: var(--darkBlue); }
+#id14 { --idColor: var(--orange-bright); }
+#id36 { --idColor: var(--aqua-green); }
+#id27 { --idColor: var(--brown-sand); }
+#id10402 { --idColor: var(--mora-milk); }
+#id9648 { --idColor: var(--lightBlue); }
+#id10749 { --idColor: var(--red); }
+#id878 { --idColor: var(--green); }
+#id10770 { --idColor: var(--yellow-dark); }
+#id53 { --idColor: var(--pale-rose); }
+#id10752 { --idColor: var(--sand); }
+#id37 { --idColor: var(--aqua); }
 
 /* Generic List (search, trending & category */
 .genericList-container {
