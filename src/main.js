@@ -13,9 +13,9 @@ const getTrendingMoviesPreview = async () => {
     const movies = data.results;
 
     //console.log({ data, movies }); // quitar mas adelante
-    movies.forEach(movie => {
-        const trendingPreviewMoviesContainer = document.querySelector('#trendingPreview .trendingPreview-movieList');
+    trendingMoviesPreviewList.innerHTML = "";
 
+    movies.forEach(movie => {
         const movieContainer = document.createElement('div');
         movieContainer.classList.add('movie-container');
 
@@ -28,7 +28,7 @@ const getTrendingMoviesPreview = async () => {
         );
 
         movieContainer.appendChild(movieImg);
-        trendingPreviewMoviesContainer.appendChild(movieContainer);
+        trendingMoviesPreviewList.appendChild(movieContainer);
     });
 }
 
@@ -37,9 +37,10 @@ const getCategoriesPreview = async () => {
     const categories = data.genres;
 
     //console.log({ data, categories }); // quitar mas adelante
-    categories.forEach(category => {
-        const previewCategoriesContainer = document.querySelector('#categoriesPreview .categoriesPreview-list');
+    categoriesPreviewList.innerHTML = "";
 
+
+    categories.forEach(category => {
         const categoryContainer = document.createElement('div');
         categoryContainer.classList.add('category-container');
 
@@ -50,7 +51,7 @@ const getCategoriesPreview = async () => {
 
         categoryTitle.appendChild(categoryTitleText);
         categoryContainer.appendChild(categoryTitle);
-        previewCategoriesContainer.appendChild(categoryContainer);
+        categoriesPreviewList.appendChild(categoryContainer);
     });
 }
 
